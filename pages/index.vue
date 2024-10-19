@@ -2,16 +2,15 @@
 </script>
 
 <template>
-	<div class="grid grid-cols-2 w-full h-full">
-		<v-card text="..."></v-card>
-
-		<!-- adicionar -->
-		<div class="bg-red-500 w-full h-full grid-span"></div>
+	<div>
+		<VAppBar> My App </VAppBar>
+		<VNavigationDrawer></VNavigationDrawer>
+		<VContainer>
+			<h2>Dashboar</h2>
+			<p>
+				Welcome to your dashboard. You can add more pages to your app by
+				creating new files in the pages directory
+			</p>
+		</VContainer>
 	</div>
 </template>
-<style>
-.teste {
-	display: grid;
-	grid-template-columns: 1fr auto;
-}
-</style>
