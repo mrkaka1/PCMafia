@@ -1,8 +1,9 @@
 <template>
+  <div>
     <VApp>
       <VMain>
         <slot />
-      </v-main>
-    </v-app>
+      </VMain>
+    </VApp>
   </div>
 </template>
