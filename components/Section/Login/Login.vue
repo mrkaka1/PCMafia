@@ -1,3 +1,6 @@
+<script lang="ts" setup>
+import Form from './Form/Form.vue';
+</script>
 <template>
 	<div class="grid grid-cols h-full">
 		<v-container class="flex justify-center items-center flex-col">
@@ -10,8 +13,6 @@
 	</div>
 </template>
 
-<script lang="ts" setup>
-import Form from './Form/Form.vue';
-</script>
+
 
 <style></style>
