@@ -1,5 +1,6 @@
 <script setup lang="ts">
-	import Default from "~/layouts/default.vue";
+	import Login from "~/components/Section/Login/Login.vue";
+import Default from "~/layouts/default.vue";
 </script>
 
 <template>
@@ -7,7 +8,7 @@
 		<Login/>
 	</Default>
 </template>
-
+  
 <style>
 	.grid-cols {
 		grid-template-columns: 35% 65%;

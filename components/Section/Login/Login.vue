@@ -10,6 +10,8 @@
 	</div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import Form from './Form/Form.vue';
+</script>
 
 <style></style>
