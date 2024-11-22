@@ -1,13 +1,9 @@
 <template>
-	<div>
-		<v-app-bar :elevation="2" color="#0C0C0C" class="h-[85px]">
+	<v-layout>
+		<v-app-bar scroll-behavior="hide" :elevation="2" color="#0C0C0C" class="h-[85px] fixed top-0 left-0 right-0">
 			<v-app-bar-title>
 				<v-form class="mt-4">
 					<SearchBar />
-					<!-- <input
-						placeholder="Buscar..."
-						class="h-12 rounded-lg border-2 border-solid border-[#4F5978] text-white p-4 mt-3"
-					/> -->
 				</v-form>
 			</v-app-bar-title>
 			<div class="flex flex-row gap-6 mr-8 mt-5">
@@ -23,10 +19,10 @@
 			</div>
 		</v-app-bar>
 
-		<div>
-			<slot />
-		</div>
-	</div>
+    <v-main class="mt-5">
+      <slot />
+    </v-main>
+	</v-layout>
 </template>
 
 <script lang="ts" setup>
