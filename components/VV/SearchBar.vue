@@ -1,8 +1,7 @@
 <template v-slot:search>
   <div>
     <div class="-search-bar">
-      <form action="./" class="-search-bar-form">
-        <label id="label" class="-label" for="pesquisar">Pesquisar</label>
+      <form action="./" class="-search-bar-form ">
         <IconSearch class="-input-icon" />
         <input
           class="-search-input"
@@ -35,7 +34,7 @@ const filterItems = () => {
 /* Search bar presets */
 .-search-bar {
   display: flex;
-  width: 100%;
+  width: 20%;
   position: relative;
   align-items: center;
 }
@@ -55,42 +54,20 @@ const filterItems = () => {
   font-size: 14px;
 
   border-radius: 8px;
-  border: 2px solid #9ab69e;
+  border: 2px solid #4F5978;
 
   padding: 16px;
 
   transition: border-color 0.3s;
 
   flex: 1;
-}
 
-/* Text presets */
-.-label {
-  display: inline-block;
-  position: absolute;
-
-  width: auto;
-  margin-top: -0.8rem;
-  margin-left: 1.6rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-
-  font-size: 0.8rem !important;
-  font-weight: 600;
-
-  border: 1px solid white;
-
-  color: #9ab69e;
-  margin: 5px;
-  padding: 4px;
-
-  color: #9ab69e;
 }
 
 /* ## Hover ## */
 .-search-input:focus {
   outline: none;
-  border-color: #00d047;
+  border-color: #FFF;
 }
 
 .-input-icon {
@@ -102,17 +79,12 @@ const filterItems = () => {
   right: 15px !important;
   top: 50%;
   transform: translateY(-50%);
-  fill: #9ab69e;
 
   transition: fill 0.3s;
 
   cursor: pointer;
 }
 
-.form:focus-within label {
-  color: #00d047;
-  transition: 0.3s;
-}
 
 .form:focus-within .icon {
   fill: #00d047;
