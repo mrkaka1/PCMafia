@@ -1,5 +1,6 @@
 <script setup lang="ts">
 	import Default from "@/layouts/default.vue";
+	import global from "@/assets/styles/global.css";
 </script>
 
 <template>
