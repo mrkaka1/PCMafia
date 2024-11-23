@@ -4,16 +4,16 @@
 
 <template>
 	<Default>
-		<Login/>
+		<Login />
 	</Default>
 </template>
 
 <style>
-@import url("../assets/styles/global.css");
+	@import url("../assets/styles/global.css");
 	.grid-cols {
 		grid-template-columns: 35% 65%;
 	}
 	* {
-		font-family: 'Poppins';
+		font-family: "Poppins";
 	}
 </style>
