@@ -1,6 +1,5 @@
 <script setup lang="ts">
 	import Default from "@/layouts/default.vue";
-	import global from "@/assets/styles/global.css";
 </script>
 
 <template>
@@ -10,7 +9,11 @@
 </template>
 
 <style>
+@import url("../assets/styles/global.css");
 	.grid-cols {
 		grid-template-columns: 35% 65%;
+	}
+	* {
+		font-family: 'Poppins';
 	}
 </style>

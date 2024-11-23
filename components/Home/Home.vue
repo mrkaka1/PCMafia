@@ -2,7 +2,7 @@
 	<div class="grid grid-cols-2 h-full">
 		<HomeSectionContentLeft />
 		<v-container class="bg-[#171717] text-white">
-			<h1 class="font-black text-xl">Status da Loja</h1>
+			<h1 class="font-extrabold text-xl">Status da Loja</h1>
 
 			<v-divider class="mt-2 mx-4" />
 			<v-list class="!bg-[#171717] !p-2 !mt-0">

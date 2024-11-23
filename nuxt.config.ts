@@ -15,6 +15,13 @@ export default defineNuxtConfig({
       })
     },
     '@nuxt/ui',
+    ['@nuxtjs/google-fonts',
+    {
+      families: {
+        Poppins: true
+      }
+    }]
+    
     //...
   ],
   vite: {
@@ -24,4 +31,5 @@ export default defineNuxtConfig({
       },
     },
   },
+  
 })
