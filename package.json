@@ -13,10 +13,12 @@
     "@mdi/font": "^7.4.47",
     "@nuxt/ui": "^2.18.7",
     "@nuxtjs/google-fonts": "^3.2.0",
+    "@vee-validate/nuxt": "^4.14.7",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest",
-    "vue3-dropzone": "^2.2.1"
+    "vue3-dropzone": "^2.2.1",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
