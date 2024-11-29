@@ -16,11 +16,12 @@ export default defineNuxtConfig({
     },
     '@nuxt/ui',
     ['@nuxtjs/google-fonts',
-    {
-      families: {
-        Poppins: true
-      }
-    }]
+      {
+        families: {
+          Poppins: true
+        }
+      }],
+      '@vee-validate/nuxt',
     
     //...
   ],
